@@ -35,7 +35,7 @@ jobs:
               id: plan
               if: github.event_name == 'push'
               #run: terraform -chdir="../GitOps/Infra/Azure_Kubernetes_Clusters/" plan -no-color
-              run: terraform -chdir="../GitOps/Infra/Azure_Kubernetes_Clusters/" plan -generate-config-out=generated.tf
+              run: terraform -chdir="../AIOpsproject/Infra/Azure_Kubernetes_Clusters/" plan -generate-config-out=generated.tf
               #continue-on-error: true
 
 
@@ -47,7 +47,7 @@ jobs:
             - name: Terraform Apply
               if: github.ref == 'refs/heads/main' && github.event_name == 'push'
               #run: terraform -chdir="../GitOps/Infra/Azure_Kubernetes_Clusters/" apply -auto-approve
-              run: terraform -chdir="../GitOps/Infra/Azure_Kubernetes_Clusters/" apply -auto-approve
+              run: terraform -chdir="../AIOpsproject/Infra/Azure_Kubernetes_Clusters/" apply -auto-approve
 
             # - name: Terraform Destroy
             #   if: github.ref == 'refs/heads/main' && github.event_name == 'push'
