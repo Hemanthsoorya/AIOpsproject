@@ -7,15 +7,15 @@
 #  id = "/subscriptions/3d5f5fa8-f989-49ca-b466-b80eff5c9774/resourceGroups/RG-AI-Service-Resources"
 #}
 
-#import {
-#  to = azurerm_resource_group.rg-app-service
-#  id = "/subscriptions/3d5f5fa8-f989-49ca-b466-b80eff5c9774/resourceGroups/RG-DSCU-app-service-00003"
-#}
+import {
+  to = azurerm_resource_group.rg-app-service
+  id = "/subscriptions/3d5f5fa8-f989-49ca-b466-b80eff5c9774/resourceGroups/RG-DSCU-app-service-00003"
+}
 
-#import {
-#  to = azurerm_kubernetes_cluster.aks
-#  id = "/subscriptions/3d5f5fa8-f989-49ca-b466-b80eff5c9774/resourceGroups/RG-DSCU-SecCluster-03/providers/Microsoft.ContainerService/managedClusters/AKS-DSCU-SecCluster"
-#}
+import {
+  to = azurerm_kubernetes_cluster.aks
+  id = "/subscriptions/3d5f5fa8-f989-49ca-b466-b80eff5c9774/resourceGroups/RG-DSCU-SecCluster-03/providers/Microsoft.ContainerService/managedClusters/AKS-DSCU-SecCluster"
+}
 
 #import {
 #  to = azurerm_cognitive_account.ai-service-OpenAIs
