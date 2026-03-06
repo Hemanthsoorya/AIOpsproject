@@ -69,3 +69,36 @@ resource "azurerm_kubernetes_cluster" "aks" {
 #}
 # 
 #
+#data "azurerm_resource_group" "rg-app-service" {
+
+#}
+
+#module "app-services" {
+#  #source = "./azure_app_service.tf"
+#  source = "https://github-edwardjones.com/aiops_repo/?=ref_branch = main"
+#  source = "https://github-edwardjones.com/aiops_repo/?=ref_tag = aiops_fin_app"
+#  source = "https://github-edwardjones.com/aiops_repo/?=ref_version =v-0.0.30"
+#  source = "https://github-edwardjones.com/aiops_repo/?=ref_env = dev"
+#  source = "https://appio-terraform-edwardjones.com/aiops_repo/?=ref_branch = main"
+#  source = "ssh@github-edwardjones.com/aiops_repo/?=ref_branch = main"
+
+# terraform-dev.tfvars  -->
+# terraform_cloud_saas_username ="heamnth"
+# terraform_cloud_saas_password ="*******"
+# db_postgres_sql = "username"
+
+#terraform-qa.tfvars  -->
+# terraform_cloud_saas_username ="heamnth"
+# terraform_cloud_saas_password ="*******"
+# db_postgres_sql = "username"
+
+#terraform-preprod.tfvars  -->
+# terraform_cloud_saas_username ="heamnth"
+# terraform_cloud_saas_password ="*******"
+# db_postgres_sql = "username"
+
+#terraform-prod.tfvars  -->
+# terraform_cloud_saas_username ="heamnth"
+# terraform_cloud_saas_password ="*******"
+# db_postgres_sql = "username"
+#}
