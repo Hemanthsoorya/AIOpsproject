@@ -2,6 +2,7 @@
 #  to = azurerm_resource_group.rg
 #  id = "/subscriptions/3d5f5fa8-f989-49ca-b466-b80eff5c9774/resourceGroups/RG-DSCU-SecCluster-03"
 #}
+
 #import {
 #  to = azurerm_resource_group.ai-services
 #  id = "/subscriptions/3d5f5fa8-f989-49ca-b466-b80eff5c9774/resourceGroups/RG-AI-Service-Resources"
@@ -33,6 +34,7 @@ import {
 #  to = azurerm_cognitive_deployment.models
 #  id = "/subscriptions/3d5f5fa8-f989-49ca-b466-b80eff5c9774/resourceGroups/RG-AI-Service-Resources/providers/Microsoft.CognitiveServices/accounts/oai-service-account-01/deployments/gpt-4-o"
 #}
+
 #import {
 #  to = azurerm_cognitive_deployment.models
 #  id = "/subscriptions/3d5f5fa8-f989-49ca-b466-b80eff5c9774/resourceGroups/RG-AI-Service-Resources/providers/Microsoft.CognitiveServices/accounts/oai-service-account-01/deployments/gpt-4o-mini"
