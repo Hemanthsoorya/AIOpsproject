@@ -20,7 +20,7 @@
 
 resource "azurerm_automation_account" "automationaccount-DSCU" {
   name                = "automation-account-DSCU-00003"
-  location            = "eastus2"
+  location            = "westus" #"eastus2"
   resource_group_name = azurerm_resource_group.rg-app-service.name
   sku_name            = "Basic"                        # Options: Basic, Free
 

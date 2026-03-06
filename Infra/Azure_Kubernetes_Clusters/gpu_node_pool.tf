@@ -15,9 +15,9 @@ resource "azurerm_kubernetes_cluster_node_pool" "gpu_pool" {
   #gpu_driver_enabled = true
   gpu_driver = "Install"
 
-  node_labels = {
-    "accelerator" = "nvidia"
-  }
+  #node_labels = {
+  #  "accelerator" = "nvidia"
+  #}
 
   # Taints prevent non-GPU pods from scheduling here
   node_taints = [
