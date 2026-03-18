@@ -3,18 +3,18 @@ terraform {
   required_providers {
     azurerm = {
       source = "hashicorp/azurerm"
-      version = "4.60.0"
+      version = "4.60.0" #4.63.0
     }
   }
 }
     #,
     #aws = {
     #  source = "hashicorp/aws"
-    #  version = "4.60.0"
+    #  version = "6.35.1"
     #},
     #gcp = {
     #  source = "hashicorp/gcp"
-    #  version = "4.60.0"
+    #  version = "7.22.0"
     #},
     #oci = {
     #  source = "hashicorp/oci"
@@ -22,7 +22,7 @@ terraform {
     #},
     #bizfly = {
     #  source = "hashicorp/bizfly"
-    #  version = "4.60.0"
+    #  version = "6.35.1"
     #},
     #null = {
     #  source = "hashicorp/null"
@@ -50,7 +50,6 @@ terraform {
 # Configure the Azure Provider
 provider "azurerm" {
   features {
-
   }
 }
 #provider "aws" {

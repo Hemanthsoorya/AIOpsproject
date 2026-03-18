@@ -3,9 +3,9 @@ resource "azurerm_resource_group" "rg" {
   name     = "RG-DSCU-SecCluster-03"
   location = "SouthCentralUS"
   tags = {
-    name = "Gokul_Admin"
+    name = "Hemanth_Admin"
     phone_Number = "+91998877665544"
-    email_id = "gokul@deloitte.com"
+    email_id = "hemanth@deloitte.com"
   }
 }
 
